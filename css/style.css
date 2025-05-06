@@ -1,0 +1,133 @@
+body {
+  .title {
+    text-align: center;
+    font-size: 36px;
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .section-box {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .section-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+    background-color: #fff4e6;
+    font-family: 'Raleway Dots', cursive;
+    color: #5a1e1e;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fffaf5;
+    border: 4px solid #b33a3a;
+    border-radius: 20px;
+    box-shadow: 6px 6px #b33a3a;
+  }
+  
+  .title {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: #b22222;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #ffbaba;
+  }
+  
+  .section-box {
+    background-color: #ffe9e3;
+    border: 3px dashed #d94c4c;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .section-box h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    color: #a11e1e;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  label {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #721c24;
+  }
+  
+  input, select, button {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #c14444;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: 'Raleway Dots', cursive;
+    color: #721c24;
+    margin: 10px 0;
+  }
+  
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #c91f37;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    box-shadow: 4px 4px #8a1a26;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #a6182e;
+    transform: translateY(-2px);
+  }
+  .section-box.frutas label {
+    display: block;
+    margin: 8px 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .section-box.frutas input[type="checkbox"] {
+    margin-right: 8px;
+  }

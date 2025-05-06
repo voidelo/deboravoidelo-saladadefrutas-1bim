@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personalização - Salada de Frutas</title>
+  <link rel="stylesheet" href="/Voidelo-Frutas-1-Bimestre/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="title">Personalize sua Salada</h1>
+  </header>
+
+  <main class="container">
+    <form id="formPedido">
+      <section class="section-box">
+        <h2>Escolha o tamanho</h2>
+        <select id="tamanho" name="tamanho">
+          <option value="200">200ml</option>
+          <option value="300">300ml</option>
+          <option value="500">500ml</option>
+        </select>
+      </section>
+
+      <section class="section-box">
+        <h2>Selecione as frutas</h2>
+        <label><input type="checkbox" name="fruta" value="Morango"> Morango</label><br>
+        <label><input type="checkbox" name="fruta" value="Banana"> Banana</label><br>
+        <label><input type="checkbox" name="fruta" value="Abacaxi"> Abacaxi</label><br>
+        <label><input type="checkbox" name="fruta" value="Kiwi"> Kiwi</label><br>
+        <label><input type="checkbox" name="fruta" value="Manga"> Manga</label><br>
+      </section>
+
+      <section class="section-box">
+        <h2>Quantidade de saladas</h2>
+        <input type="number" id="quantidade" name="quantidade" value="1" min="1">
+      </section>
+
+      <nav style="text-align: center; margin-top: 20px;">
+        <button type="button" onclick="window.location.href='index.html'">← Voltar</button>
+        <button type="submit">Finalizar Pedido</button>
+      </nav>
+    </form>
+  </main>
+
+  <script src="/Voidelo-Frutas-1-Bimestre/js/script.js"></script>
+</body>
+</html>
