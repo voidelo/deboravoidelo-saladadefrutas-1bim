@@ -131,3 +131,66 @@ body {
   .section-box.frutas input[type="checkbox"] {
     margin-right: 8px;
   }
+ 
+
+  #resumoPedido .fruta-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #5a1e1e;
+  }
+  
+  #resumoPedido .fruta-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #c14444;
+    box-shadow: 2px 2px #b33a3a;
+  }
+  .qrcode-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .qrcode-page h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .qrcode-page p {
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .qrcode-page img {
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .qrcode-page button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d33;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .qrcode-page button:hover {
+    background-color: #b22;
+  }
+  
